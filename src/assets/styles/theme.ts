@@ -1,11 +1,8 @@
-const theme = {
-  colors: {
-    primary: '#dc1811',
-    secondary: '#b41118',
-    background: '#fcfcfc',
-    greyBackground: '#c4c4c4',
-    text: '#333',
-  },
-};
+import { colors, radius } from '~/utils';
 
+const theme = {
+  ...colors,
+  ...radius,
+  ...radius,
+};
 export default theme;

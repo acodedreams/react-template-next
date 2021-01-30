@@ -5,11 +5,39 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "generate:component": "npx hygen generator component",
+    "generate:mobx-page": "npx hygen generator mobx-page",
+    "generate:page": "npx hygen generator page",
+    "precommit": "yarn lint",
+    "test": "cross-env NODE_ENV=test echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --config ./.prettierrc.js --write \"src/**/*.{js,jsx,ts,tsx,json}\"",
+    "lint": "tsc && eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn lint",
+      "yarn test"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
+    "@fnando/cnpj": "^1.0.2",
+    "@fnando/cpf": "^1.0.2",
+    "@material-ui/core": "^4.11.3",
     "axios": "^0.21.1",
     "babel-plugin-module-resolver": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "lodash": "^4.17.20",
+    "mobx": "^6.1.4",
+    "mobx-persist": "^0.4.1",
+    "mobx-react": "^7.1.0",
     "module-resolver": "^1.0.0",
     "next": "10.0.5",
     "react": "17.0.1",
@@ -18,6 +46,7 @@
     "swr": "^0.4.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.168",
     "@types/node": "^14.14.21",
     "@types/react": "^17.0.0",
     "@types/styled-components": "^5.1.7",

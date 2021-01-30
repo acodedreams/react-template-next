@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import HomePage from './HomePage';
+import HomeContainer from './Home';
 
 const Home: React.FC = () => (
   <>
@@ -10,7 +10,7 @@ const Home: React.FC = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <HomePage />
+    <HomeContainer />
   </>
 );
 export default Home;
