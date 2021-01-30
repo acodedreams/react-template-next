@@ -26,7 +26,7 @@ export const HeadingWrapper = styled.div`
   align-items: center;
   margin-bottom: ${largeSpacing};
   @media (max-width: 800px) {
-    width: 80%;
+    width: 90%;
     flex-direction: column;
   }
 `;
@@ -37,24 +37,13 @@ export const Logo = styled(Image).attrs({
   height: 117,
 })``;
 
-export const Heading = styled(Typography)`
-  font-weight: normal;
-  text-align: center;
-  color: ${textTitleColor};
-  padding: ${mediumSpacing} ${mediumSpacing};
-  font-size: ${pxToRem(60)} !important;
-  @media (max-width: 800px) {
-    display: none;
-  }
-`;
-
 export const Slogan = styled(Typography)`
   text-align: center;
   color: ${sloganColor};
   font-size: ${pxToRem(26)} !important;
   padding-bottom: ${largeSpacing};
   @media (max-width: 800px) {
-    width: 80%;
+    width: 90%;
     font-size: ${pxToRem(20)} !important;
   }
 `;
@@ -66,7 +55,7 @@ export const ContentWrapper = styled.div`
   align-items: center;
   padding-bottom: ${largeSpacing};
   @media (max-width: 800px) {
-    width: 80%;
+    width: 90%;
   }
 `;
 
@@ -75,7 +64,7 @@ export const Content = styled(Typography)`
   color: ${sloganColor};
   font-size: ${pxToRem(18)} !important;
   @media (max-width: 800px) {
-    width: 80%;
+    width: 90%;
     font-size: ${pxToRem(16)} !important;
   }
 `;

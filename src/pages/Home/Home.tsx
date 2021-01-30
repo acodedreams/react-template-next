@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
 import Head from 'next/head';
 import {
-  Heading,
   Slogan,
   Wrapper,
   HeadingWrapper,
@@ -21,7 +20,6 @@ const Home: FC = () => (
     <Wrapper>
       <HeadingWrapper>
         <Logo alt="Code Dreams" />
-        <Heading variant="h1">Code Dreams</Heading>
       </HeadingWrapper>
       <ContentWrapper>
         <Slogan variant="h2">
