@@ -1,6 +1,16 @@
 import React, { FC } from 'react';
 import Head from 'next/head';
-import { Heading, Wrapper } from './styles';
+import {
+  Heading,
+  Slogan,
+  Wrapper,
+  HeadingWrapper,
+  Logo,
+  Content,
+  ContentWrapper,
+  FooterWrapper,
+  Footer,
+} from './styles';
 
 const Home: FC = () => (
   <>
@@ -9,7 +19,26 @@ const Home: FC = () => (
     </Head>
 
     <Wrapper>
-      <Heading variant="h1">Home</Heading>
+      <HeadingWrapper>
+        <Logo alt="Code Dreams" />
+        <Heading variant="h1">Code Dreams</Heading>
+      </HeadingWrapper>
+      <ContentWrapper>
+        <Slogan variant="h2">
+          Heeey Dreaaamer! Já ta pronto para voar e transformar sonhos em
+          código?
+        </Slogan>
+        <Content variant="subtitle1">
+          Preparamos toda a arquitetura com muito carinho! No README do projeto
+          temos uma documento de forma detalhada explicando todos os passos para
+          continuarmos dando sequecia em flow de trabalho maravilhoso! E se
+          sentir falta de algo ou tem sugestão de melhoria, pode ficar a vontade
+          em falar!
+        </Content>
+      </ContentWrapper>
+      <FooterWrapper>
+        <Footer alt="Enjoy your code, live your Dream" />
+      </FooterWrapper>
     </Wrapper>
   </>
 );

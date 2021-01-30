@@ -1,8 +1,8 @@
-import { colors, radius } from '~/utils';
+import { colors, radius, spacing } from '~/utils';
 
 const theme = {
   ...colors,
   ...radius,
-  ...radius,
+  ...spacing,
 };
 export default theme;

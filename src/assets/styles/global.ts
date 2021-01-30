@@ -1,4 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
+import { getTheme } from '~/utils';
+
+const text = getTheme('colors.text');
+const background = getTheme('colors.background');
 
 const GlobalStyle = createGlobalStyle`
   * { padding: 0;
@@ -7,8 +11,8 @@ const GlobalStyle = createGlobalStyle`
       box-sizing: border-box;
   }
   body {
-    background: #eee;
-    color: #004D90;
+    background: ${background};
+    color: ${text};
     font-family: 'Source Sans Pro', sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
