@@ -124,17 +124,21 @@ It has theme styles and the `next` global styles
 
 ### The types can be as follows:
 
-`feat: New feature`
-`fix: Bug fix`
-`chore: A change that is neither a new feature nor a bug fix`
-`cr: fix changes request from PullRequest`
+```bash
+feat: New feature
+fix: Bug fix
+chore: A change that is neither a new feature nor a bug fix
+cr: fix changes request from PullRequest
+```
 
 ### Now, the following syntax can be used to commit:
 
-`git add .`
-`git checkout -b <type>/<Change>`
-`git commit -m <type>/<Change>`
-`git push -u origin <type>/<Change>`
-`open a Pull Request`
+```bash
+git add .
+git checkout -b <type>/<Change>
+git commit -m <type>/<Change>
+git push -u origin <type>/<Change>
+open a Pull Request
+```
 
 ### Finally let's fly in this dream
