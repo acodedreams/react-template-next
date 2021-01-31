@@ -28,8 +28,8 @@ const Home: FC = () => (
         </Slogan>
         <Content variant="subtitle1">
           Preparamos toda a arquitetura com muito carinho! No README do projeto
-          temos uma documento de forma detalhada explicando todos os passos para
-          continuarmos dando sequecia em flow de trabalho maravilhoso! E se
+          temos uma documentação de forma detalhada explicando todos os passos
+          para continuarmos dando sequecia em flow de trabalho maravilhoso! E se
           sentir falta de algo ou tem sugestão de melhoria, pode ficar a vontade
           em falar!
         </Content>
