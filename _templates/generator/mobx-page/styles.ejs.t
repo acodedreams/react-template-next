@@ -5,6 +5,9 @@ import styled from 'styled-components';
 import { Typography } from '~/components';
 import { getTheme } from '~/utils';
 
+const backgroundColor = getTheme('background');
+const titleColor = getTheme('primary.main');
+
 export const Wrapper = styled.div`
   display: flex;
   width: 100%;
