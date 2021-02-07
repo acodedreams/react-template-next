@@ -1,5 +1,5 @@
 ---
-to: src/pages/<%= h.changeCase.pascal(name) %>/styles.ts
+to: src/styles/pages/<%= h.changeCase.pascal(name) %>.ts
 ---
 import styled from 'styled-components';
 import { Typography } from '~/components';

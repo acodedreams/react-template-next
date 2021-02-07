@@ -9,7 +9,7 @@ import {
   ContentWrapper,
   FooterWrapper,
   Footer,
-} from './styles';
+} from '../../styles/pages/Home';
 
 const Home: FC = () => (
   <>
