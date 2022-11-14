@@ -3890,10 +3890,10 @@ mobx-react@^7.1.0:
   dependencies:
     mobx-react-lite "^3.2.0"
 
-mobx@^6.1.4:
-  version "6.1.4"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.1.4.tgz#6ba17f4e291146a3a26605a9c3a0c3ff8aea1e0b"
-  integrity sha512-DorvGl+ssJ9i5Sef90XzcIuOBMa2kWSC+PidTLHtgBX4f1bXOd+NKtujSjaRnQMDLTRkCzfJEFcC08hEjzCVaA==
+mobx@^6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.7.0.tgz#2d805610fee1801fd015c54fd5400d2601aa3768"
+  integrity sha512-1kBLBdSNG2bA522HQdbsTvwAwYf9hq9FWxmlhX7wTsJUAI54907J+ozfGW+LoYUo06vjit748g6QH1AAGLNebw==
 
 module-resolver@^1.0.0:
   version "1.0.0"
